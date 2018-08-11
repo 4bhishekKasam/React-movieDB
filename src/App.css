@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 50px;
+  color: rgb(53, 52, 52);
+  position: absolute;
+}
+
+.App-header {
+  background-color: black;
+  height: 45px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  position: relative;
+}
+
+.App-intro {
+  font-size: large;
+}
+.info{
+  float: right;
+  background-color: black;
+  margin-top: -4rem;
+  font-weight: bolder;
+  color: #fdd805;
+}
+
+.secondary{
+  color: #fdd805;
+  font-size:30px;
+  font-weight: 200px;
+  font-style: italic;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: underline;
+}
+
+.container-fluid{
+  background-color: black;
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #fdd805
+
+}
+.modal-body{
+  text-align: left;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
