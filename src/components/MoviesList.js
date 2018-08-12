@@ -20,14 +20,14 @@ class MoviesList extends Component {
                             className="imageBox" />
                     </div>
                    
-                    <div className="grid-item item2">
+                    <div className="grid-item item5">
                         <b>  Overview </b>  :
                          {movie.overview.length < 100 ? `${movie.overview}` : `${movie.overview.substring(0, 100)}...`} <br />
                         <b> Original Language</b> : {movie.original_language} <br />
                         <b> Rating</b> : {movie.vote_average}/10     <br />
                         <b> Release Date</b> :{movie.release_date}
                     </div>
-                    <div className="grid-item item2">
+                    <div className="grid-item item5">
                         <a className="btn btn-default" type="submit"
                             href={infoUrl}
                         >
