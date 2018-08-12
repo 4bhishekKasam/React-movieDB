@@ -47,7 +47,7 @@ class App extends Component {
         <p>Search Key :<b> {this.state.movie}</b></p>
         <MoviesList movieList={this.state.movieList}/>
         <footer className="footer">
-          <p>Handcrafted by <b>Abhishek Konnur</b> | v1.0 </p>
+          <h5>Handcrafted by <b>Abhishek Konnur</b> | v1.0 </h5>
         </footer>
 
         <div className="modal fade" id="myModal" role="dialog">
