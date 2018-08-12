@@ -52,7 +52,9 @@ text-decoration: underline;
 .modal-body{
   text-align: left;
 }
-
+.footer{
+  font-size: 2px;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
