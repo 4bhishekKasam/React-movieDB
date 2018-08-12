@@ -46,8 +46,8 @@ text-decoration: underline;
   background-color: black;
   color: white;
   border-bottom-style: solid;
-  border-bottom-color: #fdd805
-
+  border-bottom-color: #fdd805;
+   width:100%;
 }
 .modal-body{
   text-align: left;
